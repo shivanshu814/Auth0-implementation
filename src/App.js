@@ -1,4 +1,4 @@
-/** @format */
+/* @format */
 function App() {
 	return <div></div>;
 }
