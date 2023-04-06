@@ -1,1 +1,16 @@
-/** @format */
+/* @format */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}
+
+body {
+	padding: 2rem;
+}
+button {
+	margin: 2rem 0;
+	padding: 1rem 2rem;
+	width: 120px;
+	cursor: pointer;
+}
