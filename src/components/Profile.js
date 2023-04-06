@@ -18,14 +18,14 @@ const Profile = () => {
 	return (
 		isAuthenticated && (
 			<div>
-				<JSONPretty data={user} />
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
 				<img src={user.picture} alt={user.name} />
+				<br></br>
 				<h2>{user.name}</h2>
+				<br></br>
 				<p>{user.email}</p>
+				<br></br>
+				<br></br>
+				<JSONPretty data={user} />
 			</div>
 		)
 	);
